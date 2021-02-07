@@ -2,20 +2,36 @@
   "name": "profile-page",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/kamkamista11",
   "dependencies": {
+    "@atlaskit/atlassian-navigation": "^0.12.5",
+    "@atlaskit/css-reset": "^6.0.5",
+    "@atlaskit/datetime-picker": "^10.0.7",
+    "@atlaskit/form": "^8.2.0",
+    "@atlaskit/logo": "^13.0.7",
+    "@atlaskit/page-header": "^10.0.7",
+    "@atlaskit/page-layout": "^0.10.11",
+    "@atlaskit/spinner": "^15.0.6",
+    "@atlaskit/textarea": "^4.0.1",
+    "@atlaskit/textfield": "^5.0.0",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.2",
+    "node-sass": "^4.14.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
