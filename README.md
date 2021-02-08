@@ -13,6 +13,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+# Deployed : 
+https://kamkamista11.github.io/profiles/
 
 # About the project
 
@@ -26,7 +28,8 @@ Footer at the bottom
 
 ## Why did you decide to use specific techniques ?
 
-### React
+### 
+React
 It was suppose to be SPA. At first I thought about Vue.js but I chose React based on official documentation (vue found only here https://github.com/spartez/vue-atlaskit)
 ### Create-react-app
 Its the fastest way to setup React project.
